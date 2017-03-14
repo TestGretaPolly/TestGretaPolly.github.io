@@ -1,6 +1,6 @@
 .first_section {
-	background-color: orange;
-	height: 100vh;
+	background-color: #FFB26D;
+	height: 80vh;
 	display: flex;
     align-content: center;
     align-items: center;
@@ -10,9 +10,21 @@
     position: relative;
 }
 
+.lower_first_section {
+    background-color: #FFB26D;
+    height: 20vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column; 
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    position: relative;
+}
+
 .second_section {
-	background-color: pink;
-	height: 100vh;	
+	background-color: #FFDAB9;
+	height: 40vh;	
 	display: flex;
     align-content: center;
     align-items: center;
@@ -23,8 +35,8 @@
 }
 
 .third_section_left {
-	background-color: blue;
-	height: 100vh;
+	background-color: #80B380;
+	height: 70vh;
 	display: flex;
     align-content: center;
     align-items: center;
@@ -35,8 +47,8 @@
 }
 
 .third_section_right {
-	background-color: green;
-	height: 100vh;
+	background-color: #99C299;
+	height: 70vh;
 	display: flex;
     align-content: center;
     align-items: center;
@@ -44,4 +56,97 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     position: relative;
+}
+
+.upper_forth_section {
+    background-color: #3b94c8;
+    height: 40vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column; 
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+.lower_forth_section {
+    background-color: #3b94c8;
+    height: 70vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column; 
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+@font-face {
+    font-family: 'GT-Walsheim';
+    src: url("GT-Walsheim-Pro-Trial-Regular.otf") format("opentype");
+}
+
+body {
+    color: #FFFFFF
+}
+
+h1 {
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 45pt;
+    line-height: 25px;
+    font-family: "GT-Walsheim", sans-serif;
+}
+
+h2 {
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 12pt;
+    line-height: 25px;
+    font-family: "GT-Walsheim", sans-serif;
+}
+
+h3 {
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 30pt;
+    line-height: 25px;
+    font-family: "GT-Walsheim", sans-serif;
+}
+
+h4 {
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 25pt;
+    line-height: 25px;
+    font-family: "GT-Walsheim", sans-serif;
+}
+
+p1 {
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 10pt;
+    line-height: 25px;
+    font-family: "GT-Walsheim", sans-serif;
 }
