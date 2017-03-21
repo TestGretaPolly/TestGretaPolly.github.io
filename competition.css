@@ -82,13 +82,10 @@
     position: relative;
 }
 
-@font-face {
-    font-family: 'GT-Walsheim';
-    src: url("GT-Walsheim-Pro-Trial-Regular.otf") format("opentype");
-}
-
 body {
     color: #FFFFFF
+    font-family: 'GT-Walsheim', sans-serif;
+    src: url("GT-Walsheim-Pro-Trial-Regular.otf") format("opentype");
 }
 
 h1 {
@@ -100,7 +97,6 @@ h1 {
     font-stretch: normal;
     font-size: 45pt;
     line-height: 25px;
-    font-family: "GT-Walsheim", sans-serif;
 }
 
 h2 {
@@ -112,7 +108,6 @@ h2 {
     font-stretch: normal;
     font-size: 12pt;
     line-height: 25px;
-    font-family: "GT-Walsheim", sans-serif;
 }
 
 h3 {
@@ -124,7 +119,6 @@ h3 {
     font-stretch: normal;
     font-size: 30pt;
     line-height: 25px;
-    font-family: "GT-Walsheim", sans-serif;
 }
 
 h4 {
@@ -136,7 +130,6 @@ h4 {
     font-stretch: normal;
     font-size: 25pt;
     line-height: 25px;
-    font-family: "GT-Walsheim", sans-serif;
 }
 
 p1 {
@@ -148,5 +141,4 @@ p1 {
     font-stretch: normal;
     font-size: 10pt;
     line-height: 25px;
-    font-family: "GT-Walsheim", sans-serif;
 }
