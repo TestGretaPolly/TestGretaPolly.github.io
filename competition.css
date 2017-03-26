@@ -22,6 +22,18 @@
     position: relative;
 }
 
+.upper_second_section {
+	background-color: #ffe791;
+	height: 100vh;
+	display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column; 
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    position: relative;
+
+}
 .second_section {
 	background-color: #FFDAB9;
 	height: 40vh;	
@@ -83,62 +95,81 @@
 }
 
 body {
-    color: #FFFFFF
+    color: #FFFFFF;
     font-family: 'GT-Walsheim', sans-serif;
     src: url("GT-Walsheim-Pro-Trial-Regular.otf") format("opentype");
 }
 
 h1 {
-    font-style: normal;
+    /*font-style: normal;
     font-variant-ligatures: normal;
     font-variant-caps: normal;
     font-variant-numeric: normal;
     font-weight: normal;
-    font-stretch: normal;
-    font-size: 45pt;
-    line-height: 25px;
+    font-stretch: normal;*/
+    font-size: 65pt;
+    line-height: 30px;
 }
 
 h2 {
-    font-style: normal;
+    /*font-style: normal;
     font-variant-ligatures: normal;
     font-variant-caps: normal;
     font-variant-numeric: normal;
     font-weight: normal;
-    font-stretch: normal;
-    font-size: 12pt;
-    line-height: 25px;
+    font-stretch: normal;*/
+    font-size: 20pt;
+    line-height: 35px;
+    font-style: italic;
 }
 
 h3 {
-    font-style: normal;
+    /*font-style: normal;
     font-variant-ligatures: normal;
     font-variant-caps: normal;
     font-variant-numeric: normal;
     font-weight: normal;
-    font-stretch: normal;
+    font-stretch: normal;*/
     font-size: 30pt;
     line-height: 25px;
 }
 
 h4 {
-    font-style: normal;
+    /*font-style: normal;
     font-variant-ligatures: normal;
     font-variant-caps: normal;
     font-variant-numeric: normal;
     font-weight: normal;
-    font-stretch: normal;
+    font-stretch: normal;*/
     font-size: 25pt;
     line-height: 25px;
 }
 
-p1 {
-    font-style: normal;
+p {
+    /*font-style: normal;
     font-variant-ligatures: normal;
     font-variant-caps: normal;
     font-variant-numeric: normal;
     font-weight: normal;
-    font-stretch: normal;
+    font-stretch: normal;*/
     font-size: 10pt;
     line-height: 25px;
 }
+
+#firstform input{
+    background-color: #FFB26D;
+    color: white;
+    border: none;
+    resize: horizontal;
+    font-size: 65pt;
+}
+
+input:focus {
+	outline: none;
+}
+
+input,
+input::-webkit-input-placeholder {
+    color: #b7875b;
+}
+
