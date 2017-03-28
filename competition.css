@@ -449,11 +449,13 @@ Dropdown Content (Hidden by Default)
     font-size: 20px;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+/* Change color of dropdown links on hover 
+.dropdown-content a:hover {background-color: #f1f1f1}*/
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) 
+.show {
+    display:block;
+}*/
 
 .numberofpants  {
     display: inline-block;
