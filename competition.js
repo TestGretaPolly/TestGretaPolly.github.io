@@ -1,6 +1,8 @@
 function showInput() {
         document.getElementById('display').innerHTML = 
                     document.getElementById("user_input").value;
+        document.getElementById('display2').innerHTML = 
+                    document.getElementById("user_input").value;
     }
 
 /* When the user clicks on the button, 
@@ -11,19 +13,19 @@ function myFunction() {
 
 // Close the dropdown menu if the user clicks outside of it
 // Greta I cannot get this to display the seleccte dropdown once clicked
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
+//window.onclick = function(event) {
+  //if (!event.target.matches('.dropbtn')) {
 
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
+    //var dropdowns = document.getElementsByClassName("dropdown-content");
+    //var i;
+    //for (i = 0; i < dropdowns.length; i++) {
+      //var openDropdown = dropdowns[i];
+      //if (openDropdown.classList.contains('show')) {
+        //openDropdown.classList.remove('show');
+      //}
+    //}
+  //}
+//}
 
 function showHover(img) {
    if(img) {
