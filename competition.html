@@ -14,10 +14,12 @@
 						<section>
 							<div class="container text-center">     
 	    						<h1>
-	    							<form id="firstform" action="javascript:getName()">
-											<input type="text" name="FirstName" id="user_input" value="" placeholder="Your name" size="10" />
-											<input type="Submit" onclick="showInput()" class="hidden"/> 's
-										</form><br> Pants With Purpose</h1>
+	    							<form 
+	    								id="firstform" action="javascript:getName()">
+										<input type="text" name="FirstName" id="user_input" value="" placeholder="Your name" size="10" align="center"/>
+										<input type="Submit" onclick="showInput()" class="hidden"/>'s 
+									</form>Pants With Purpose
+								</h1>
 	  						</div>
 	  					</section>
 					</div>
@@ -27,7 +29,7 @@
 					<div class="col-md-12">
 						<section>
 							<div class="container text-center">
-								<h3>Everyday essentials made <u>simple</u>, <u>sustainable</u> and <u>purposeful</u>.</h3>
+								<h3>Everyday essentials made <u>simple</u>,<br> <u>sustainable</u> and <u>purposeful</u>.</h3>
 	  						</div>
 	  					</section>
 					</div>
@@ -35,35 +37,52 @@
 		
 				<div class="row upper_second_section">
 					<div class="col-md-12">
-						<section>
-							<div class="container text-center">
-								<h2>We spoke to <u><span id='display'></span></u> </br>and three things became clear:</h2>
-							</div>
-						</section>
-						<section>
-							<div class="container text-center">
+						<div class="container text-center">
+							<h2>We spoke to <u><p6>_</p6><span id='display'></span><p6>_</p6></u> </br>and three things became clear:</h2>
+						</div>
+					</div>
+				</div>
+
+				<div class="row lower_upper_second_sections">
+							<div class="col-lg-4 lower_upper_second_section_one">
 								<table>
 									<tr>
 										<th>1.</th>
-										<th>2.</th>
-										<th>3.</th>
 									</tr>
 									<tr>
-										<td>We hate shopping for our pants. High street, big brands, hanging on till Christmas... </br> Just make this easy for us!</td>
-										<td>Most of us hold onto our pants waaaay past their wear-by date. </br> *Fact - On average guys keep their pants for 3/4 years - gross</td>
-										<td>We are over having someone else's name printed on our waistband.</br> Why should Calvin get all the profit?</td>
+										<td>We hate shopping for our pants.<br> High street, big brands, hanging <br>on till Christmas.. Just make <br>it easy for us!</td>
 									</tr>
 								</table>
 							</div>
-						</section>
-					</div>
-				</div>				
+
+							<div class="col-lg-4 lower_upper_second_section_two">
+								<table>
+									<tr>
+										<th>2.</th>
+									</tr>
+									<tr>
+										<td>Most of us hold onto our pants <br>waaaay past their wear-by date. </br> <p1>*Fact - On average guys keep their pants for 3/4 years - <br> gross<p1></td>
+									</tr>
+								</table>
+							</div>
+				
+							<div class="col-lg-4 lower_upper_second_section_three">
+								<table>
+									<tr>
+										<th>3.</th>
+									</tr>
+									<tr>
+									<td>We are over having someone <br>else's name printed on our <br>waistband. Why should Calvin <br>get all the profit?</td>
+									</tr>
+								</table>
+							</div>
+				</div>			
 
 				<div class="row second_section">
 					<div class="col-md-12">
 						<section>
 							<div class="container text-center">
-								<h3>Here is how it works</h3>
+								<h3>Here's how it works...</h3>
 							</div>
 						</section>
 					</div>
@@ -71,10 +90,36 @@
 					
 				<div class="row third_section"> 
 					<div class="col-lg-6 third_section_left">
+					<br>
+					<br>
+					<br>
+					<br>
 						<h3>1. Pick your style</h3>
+					<br>
+					<br>
+					<br>
+						<img id= ex1 src="images/5160_207_4_1_1__BW.png" src="alt="Pants" style="width:40%;height:40%;">
+						<img id= ex2 src="images/B&W Knickers.png" src="alt="Pants" style="width:20%;height:20%;" hidden="img"><a href="#" id="hlink"></a>
+						<br>
 					</div>						
 					<div class="col-lg-6 third_section_right">
+					<br>
+					<br>
+					<br>
+					<br>
 						<h3>2. Pick a color</h3>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+							<div class="dropdown">
+  								<button onclick="myFunction()" class="dropbtn">Choose a colour </button>
+  									<div id="myDropdown" class="dropdown-content">
+   										<a href="#">Black</a>
+    									<a href="#">White</a>
+  									</div>
+							</div>
 					</div>
 				</div>
 
@@ -83,31 +128,70 @@
 						<section>
 							<div class="container text-center">
 								<h3>3. Subscribe</h3>
+								<p> Choose how many...</p>
 								<br>
-								<p> Choose how many. <br> Choose how often. <br> We take care of the rest. </p>
+								<br>
+								<div class="numberofpants">
+										<input class="NumberAmount" max="99" maxlength="2" min="2" ng-model="item.quantity" ng-value="1" type="number" value="2">
+								</div> pairs
+								<br>
+								<p> Choose how often... </p>
 							</div>
 						</section>
 					</div>
 				</div>
 			
 				<div class="row lower_forth_section">
-					<div class="col-md-12">
-						<section>
-							<div class="container text-center">
-								<h3> *number button goes here* </h3>
+				<div class="row lower_upper_second_sections">
+							<div class="col-lg-4 lower_forth_section_one">
+								<table>
+									<tr>
+										<th>3 <br>Monthly</th>
+									</tr>
+									<tr>
+										<td>Living on the edge... but still good</td>
+									</tr>
+								</table>
 								<br>
-								<h3> *Length Buttons goes here* </h3>
 							</div>
-						</section>
-					</div>
+
+							<div class="col-lg-4 lower_forth_section_two">
+								<table>
+									<tr>
+										<th>6 <br>Monthly</th>
+									</tr>
+									<tr>
+										<td><p6>. . ..</p6>Your mother will approve<p6>.... . ..</p6><br></td>
+									</tr>
+								</table>
+								<br>
+							</div>
+				
+							<div class="col-lg-4 lower_forth_section_three">
+								<table>
+									<tr>
+										<th>9 <br>Monthly</th>
+									</tr>
+									<tr>
+									<td>You're the Fresh Prince of Pants..<br></td>
+									</tr>
+								</table>
+								<br>
+							</div>
+							<div class="col-md-12 lower_forth_section_four">
+							<p> ...and we take care of the rest. </p>
+							</div>
+				</div>			
 				</div>
 		</div>
-		
-		
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="competition.js"></script>
+
+
+
 	</body>
 
 	</html>
