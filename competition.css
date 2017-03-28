@@ -196,7 +196,43 @@ img:hover {
 
 .fifth_section {
     background-color: pink;
-    height: 70vh;
+    height: 120vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column; 
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+.lower_fifth_section {
+    background-color: pink;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column; 
+    flex-wrap: nowrap;
+    justify-content: top;
+    position: relative;
+}
+
+.sixth_section {
+    background-color: #B2E2FA;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column; 
+    flex-wrap: nowrap;
+    justify-content: top;
+    position: relative;
+}
+
+.seventh_section {
+    background-color: #FACEB2;
+    height: 100vh;
     display: flex;
     align-content: center;
     align-items: center;
@@ -250,13 +286,35 @@ h3 {
 }
 
 h4 {
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-stretch: normal;*/
+    font-size: 20pt;
+    line-height: 25px;
+}
+
+h5 {
     /*font-style: normal;
     font-variant-ligatures: normal;
     font-variant-caps: normal;
     font-variant-numeric: normal;
     font-weight: normal;
     font-stretch: normal;*/
-    font-size: 25pt;
+    font-size: 50pt;
+    line-height: 25px;
+}
+
+h6 {
+    /*font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-stretch: normal;*/
+    font-size: 12pt;
     line-height: 25px;
 }
 
@@ -339,7 +397,7 @@ th, td {
 }
 
 
-/* Dropdown Button */
+/* Dropdown Button 
 .dropbtn {
     font-size: 100px;
     background-color: #9FD0C6;
@@ -351,18 +409,18 @@ th, td {
     cursor: pointer;
 }
 
-/* Dropdown button on hover & focus */
+/* Dropdown button on hover & focus 
 .dropbtn:hover, .dropbtn:focus {
     background-color:#9FD0C6 ;
 }
 
-/* The container <div> - needed to position the dropdown content */
+ The container <div> - needed to position the dropdown content 
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
+Dropdown Content (Hidden by Default) 
 .dropdown-content {
     display: none;
     position: absolute;
@@ -372,13 +430,23 @@ th, td {
     z-index: 1;
 }
 
-/* Links inside the dropdown */
+ Links inside the dropdown 
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     text-align: center;
     display: block;
+} 
+*/
+
+.menu select {
+    background-color: #9FD0C6;
+    width:175px;
+    height:50px;
+    border: none;
+    border-radius: 0;
+    font-size: 20px;
 }
 
 /* Change color of dropdown links on hover */
@@ -408,3 +476,39 @@ th, td {
 
 }
 
+.badge {
+  width: 380px;
+  height: 380px;
+  background-color: #C8E8E1;
+  line-height: 20px; /* adjust line height to align vertically*/
+  padding:0;
+  border-radius: 100%;
+}
+
+.badge:hover {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+#cards {
+    display: block;
+    margin: auto;
+    width:45%; 
+    height: 45%;
+}
